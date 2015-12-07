@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.notVisible {
+  display: none;
+}
+
+.nav {
+  height: 100px;
+  background: black;
+  color: yellow;
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+  li {
+    display: inline-block;
+    padding: 30px;
+  }
+}
+
+
+.menuBtn span {
+  display: block;
+  width: 19px;
+  height: 5px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  //z-index: 99;
+}
+
+.mobileNav {
+  a {
+    background: black;
+    text-decoration: none;
+    color: yellow;
+  }
+  li {
+    display: inline-block;
+    padding: 5px;
+  }
+}
